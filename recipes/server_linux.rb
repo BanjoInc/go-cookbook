@@ -12,7 +12,7 @@ when 'rhel','fedora'
   include_recipe 'yum'
 
   yum_repository 'thoughtworks' do
-    baseurl 'http://download.go.cd/gocd-rpm'
+    baseurl 'https://download.go.cd'
     gpgcheck false
   end
 end
